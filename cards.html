@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <script src="https://kit.fontawesome.com/866259e8ed.js" crossorigin="anonymous"></script>
+  <script src="card.js" defer></script>
+  <link rel="stylesheet" href="styles.css" />
+  <title>Zyra's Business card</title>
+</head>
+
+<body>
+  <iframe hidden width="560" height="315" src="https://www.youtube.com/embed/G5kH8JQs7LY?si=vzuuP1PaqB7Swrf2?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+  <div class="page">
+    <h1>Business Card</h1>
+    <h4>Now playing: The shade</h4>
+    <div class="icon">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="card">
+      <div id="intro" data-tab-content class="active">
+        <header>
+          <div class="logo"></div>
+        </header>
+        <hr>
+        <div>
+          <img
+            src="https://scontent-hkg1-2.xx.fbcdn.net/v/t39.30808-6/428187290_2348246742232485_6130723112153277802_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEnqdaWHh-T2mxHrO5zlueoMiXaRZkPDjgyJdpFmQ8OOAaGlkMUTXQnnwIhb029DPPDNu1em493Z1-MfD8gPJAr&_nc_ohc=dOdnZlfpcucAX8w5aoq&_nc_ht=scontent-hkg1-2.xx&oh=00_AfBCQu2D2MiKoO-zy26pYlz9_REruvHM4lEOV00O4IDZWw&oe=65F80448"
+            alt="Zyra" />
+        </div>
+        <h1>Zyra Thant</h1>
+        <h2>First-year RMIT student</h2>
+        <p><i class="fas fa-location-dot"></i> Ho Chi Minh City, Vietnam</p>
+
+        <button id="email">
+          <a href="mailto:s4022136@rmit.edu.vn"><i class="fa-regular fa-envelope"></i> s4022136@rmit.edu.vn</a>
+        </button>
+        <br />
+        <br />
+        <h3>Bachelor of IT student</h3>
+        <h4>Cybersecurity Major</h4>
+        <p>
+          Fun fact: I was going to go to med school but somehow ended up
+          taking IT.
+        </p>
+      </div>
+
+      <div id="academic" data-tab-content>
+        <header>
+          <div class="logo"></div>
+        </header>
+        <hr>
+        <h1><i class="fa-solid fa-book"></i> Academic Background</h1>
+        <h2>2023-present: RMIT University Vietnam</h2>
+        <h3>Bachelor of IT: Cybersecurity Stream</h3>
+        <p><strong>2021-2022: Canning College, Western Australia</strong></p>
+        <p>ATAR: 99.80</p>
+        <p>
+          Subjects: Human Biology, Chemistry, Physics, Math methods, ELACS
+        </p>
+        <br />
+        <br />
+      </div>
+
+      <div id="hobbies" data-tab-content>
+        <header>
+          <div class="logo"></div>
+        </header>
+        <hr>
+        <div>
+          <img
+            src="https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-1/428629795_2358435757880250_3765739240898761848_n.jpg?stp=dst-jpg_p320x320&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHm9-yD5HvjYJdk7wd1NPy3TymlHJ83uOBPKaUcnze44ETPkt3DWRCLSFj-RePE9dUE8OWDtGFig5Dt8yGls4m3&_nc_ohc=sUjAA76I_u4AX_yytHB&_nc_ht=scontent-hkg4-1.xx&oh=00_AfDj6xuMvK8hATHhfL20OusPwh-4Gj1hOADb1mOav-2ZZg&oe=65F6F82F"
+            alt="Guitar" />
+        </div>
+        <h1><i class="fa-solid fa-guitar"></i>Hobbies & Interests</h1>
+        <p>
+          My interest for the tech field did not develop until Covid-19 hit.
+        </p>
+        <p>
+          Hence, I am a complete newbie to coding. However, my motivation to
+          learn is skyrocketing especially after I finished my first semester
+          at RMIT.
+        </p>
+        <h2>Outside of technology</h2>
+        <p>
+          To de-stress from schoolwork, in my free time I enjoy playing
+          guitar. Calisthenics and Muay Thai are a few of the sports I
+          currently enjoy. I used to do Lethwei which is a similar combat
+          sport to Muay Thai but I could not find any gyms related to it in
+          Vietnam.
+        </p>
+      </div>
+
+      <div id="contact" data-tab-content>
+        <header>
+          <div class="logo"></div>
+        </header>
+        <hr>
+        <h1><i class="fa-solid fa-address-book"></i>Contact me via</h1>
+        <button id="email">
+          <a href="mailto:s4022136@rmit.edu.vn"><i class="fa-regular fa-envelope"></i> Email:
+            s4022136@rmit.edu.vn</a>
+        </button>
+        <br />
+        <br />
+        <button id="instagram">
+          <a href="https://www.instagram.com/zyra.tn/"><i class="fa-brands fa-instagram"></i> Instagram: zyra.tn</a>
+        </button>
+
+        <br />
+        <br />
+        <p>
+          If you have any good song recommendations, feel free to contact me
+        </p>
+      </div>
+      <div class="tabs-section">
+        <ul>
+          <li data-tab-target="#intro" class="active tab">
+            <i class="fa-regular fa-user"></i> Intro
+          </li>
+          <li data-tab-target="#academic" class="tab">
+            <i class="fa-solid fa-book"></i> Academics
+          </li>
+          <li data-tab-target="#hobbies" class="tab">
+            <i class="fa-solid fa-guitar"></i> Hobbies
+          </li>
+          <li data-tab-target="#contact" class="tab">
+            <i class="fa-solid fa-address-book"></i> Contacts
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
